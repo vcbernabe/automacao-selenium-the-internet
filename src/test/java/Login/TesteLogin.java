@@ -32,6 +32,7 @@ public class TesteLogin extends BaseTest {
     }
 
     @Test(priority =1)
+
     public void falhaLoginUsuario() {
 
         driver.get("https://the-internet.herokuapp.com/login");

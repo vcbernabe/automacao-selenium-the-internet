@@ -11,6 +11,7 @@ public class BaseTest {
     protected WebDriver driver;
 
     @BeforeTest
+
     public void setUp () {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -20,6 +21,7 @@ public class BaseTest {
     }
 
     @AfterTest
+
     public void tearDown () throws InterruptedException {
         Thread.sleep(2000);
         driver.quit();

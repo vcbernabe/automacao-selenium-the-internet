@@ -12,6 +12,7 @@ import java.util.List;
 public class TesteAdicionarElemento extends BaseTest {
 
     @Test(priority = 0)
+
     public void AdicionarElemento() {
         driver.findElement(By.xpath("//a[text()='Add/Remove Elements']")).click();
         driver.findElement(By.xpath("//button[text()='Add Element']")).click();
@@ -24,9 +25,10 @@ public class TesteAdicionarElemento extends BaseTest {
     }
 
     @Test(priority = 1)
+
     public void adicionarVariosElementos() {
-        // Volta para a página inicial antes de começar o segundo teste
-        driver.navigate().back();  // Ou recarregue a página: driver.navigate().refresh();
+
+        driver.navigate().back();
 
         driver.findElement(By.xpath("//a[text()='Add/Remove Elements']")).click();
 
