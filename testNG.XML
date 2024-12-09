@@ -1,7 +1,7 @@
 <suite name="Suite1">
-    <test name="LOGIN">
+    <test name="Login">
         <packages>
-            <package name="LOGIN" />
+            <package name="Login" />
         </packages>
     </test>
 </suite>
