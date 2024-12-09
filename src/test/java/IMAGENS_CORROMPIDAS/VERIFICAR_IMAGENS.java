@@ -9,6 +9,7 @@ import java.util.List;
 public class VERIFICAR_IMAGENS extends BaseTest {
 
     @Test
+
     public void verificarImagens() {
 
         driver.findElement(By.xpath("//a[text()='Broken Images']")).click();
