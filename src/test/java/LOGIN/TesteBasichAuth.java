@@ -1,11 +1,11 @@
-package LOGIN;
+package Login;
 
 import BASE.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class A01_LOGIN_BASIC_AUTH extends BaseTest {
+public class TesteBasichAuth extends BaseTest {
 
     @Test
 

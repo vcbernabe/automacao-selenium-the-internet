@@ -1,4 +1,4 @@
-package IMAGENS_CORROMPIDAS;
+package ImagensCorrompidas;
 
 import BASE.BaseTest;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import java.util.List;
 
-public class VERIFICAR_IMAGENS extends BaseTest {
+public class TesteVerificarImagens extends BaseTest {
 
     @Test
 

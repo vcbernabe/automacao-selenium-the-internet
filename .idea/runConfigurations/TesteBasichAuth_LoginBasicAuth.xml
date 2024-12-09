@@ -1,17 +1,17 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="A01_LOGIN_BASIC_AUTH.LoginBasicAuth" type="TestNG" singleton="false" nameIsGenerated="true">
+  <configuration default="false" name="TesteBasichAuth.LoginBasicAuth" type="TestNG" singleton="false" nameIsGenerated="true">
     <module name="the-internet-automation-java-selenium" />
     <shortenClasspath name="NONE" />
     <useClassPathOnly />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="LOGIN.*" />
+        <option name="PATTERN" value="Login.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <option name="SUITE_NAME" value="" />
     <option name="PACKAGE_NAME" value="LOGIN" />
-    <option name="MAIN_CLASS_NAME" value="LOGIN.A01_LOGIN_BASIC_AUTH" />
+    <option name="MAIN_CLASS_NAME" value="Login.TesteBasichAuth" />
     <option name="METHOD_NAME" value="LoginBasicAuth" />
     <option name="GROUP_NAME" value="" />
     <option name="TEST_OBJECT" value="METHOD" />
