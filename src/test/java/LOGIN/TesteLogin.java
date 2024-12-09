@@ -1,4 +1,4 @@
-package Login;
+package LOGIN;
 
 import BASE.BaseTest;
 import org.openqa.selenium.By;
