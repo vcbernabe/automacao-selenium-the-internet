@@ -14,6 +14,7 @@ public class TesteAdicionarElemento extends BaseTest {
     @Test(priority = 0)
 
     public void AdicionarElemento() {
+
         driver.findElement(By.xpath("//a[text()='Add/Remove Elements']")).click();
         driver.findElement(By.xpath("//button[text()='Add Element']")).click();
 
@@ -28,8 +29,6 @@ public class TesteAdicionarElemento extends BaseTest {
 
     public void adicionarVariosElementos() {
 
-        driver.navigate().back();
-
         driver.findElement(By.xpath("//a[text()='Add/Remove Elements']")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -40,12 +39,12 @@ public class TesteAdicionarElemento extends BaseTest {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Delete']")));
         }
 
-        List<WebElement> deleteButtons = driver.findElements(By.xpath("//button[text()='Delete']"));
+        List<WebElement> botoesExcluir = driver.findElements(By.xpath("//button[text()='Delete']"));
 
-        if (deleteButtons.size() == 5) {
-            System.out.println("Botões 'Delete' foram adicionados com sucesso. Total de botões: " + deleteButtons.size());
+        if (botoesExcluir.size() == 5) {
+            System.out.println("Botões 'Delete' foram adicionados com sucesso. Total de botões: " + botoesExcluir.size());
         } else {
-            System.out.println("Número de botões 'Delete' não corresponde ao esperado. Total de botões: " + deleteButtons.size());
+            System.out.println("Número de botões 'Delete' não corresponde ao esperado. Total de botões: " + botoesExcluir.size());
         }
     }
 }
